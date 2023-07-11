@@ -6,7 +6,7 @@ st.title("Z OR T DECISION")
 with st.form("z_or_t", clear_on_submit=True):
     sigma = st.radio("Does it have Sigma ? ", ("Yes", "No"))
     normal = st.radio("Is it Normal?", ("Yes", "No"))
-    n = st.radio("n>=30?", ("Yes", "No"))
+    n = st.radio("n>=30?", ("Yes", "No", "idk"))
 
     submitted = st.form_submit_button("CHECK")
 
